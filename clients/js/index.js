@@ -16,6 +16,6 @@
  "use strict";
 
 module.exports = {
-    ZawgyiDetector: require("./build_node/zawgyi_detector").ZawgyiDetector,
-    ZawgyiConverter: require("./build_node/zawgyi_converter").ZawgyiConverter
+    ZawgyiDetector: require("./src/zawgyi_detector").ZawgyiDetector,
+    ZawgyiConverter: require("./src/zawgyi_converter").ZawgyiConverter
 };
